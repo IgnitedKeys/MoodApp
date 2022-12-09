@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Binding var mood: Mood
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                ZStack {
+                    Image(systemName: "circle")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 200)
+                    Text(mood.mood.rawValue)
+                        .font(.system(size: 230))
+                        .scaledToFit()
+                        .minimumScaleFactor(0.01)
+                        .lineLimit(1)
+                }
+                Text("Your latest Mood")
+                    .font(.headline)
+            }.navigationTitle("Mood Tracker")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(mood: .constant(Mood(mood: .normal, timestamp: Date())))
     }
 }

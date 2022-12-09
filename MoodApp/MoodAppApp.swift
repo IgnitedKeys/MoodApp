@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct MoodAppApp: App {
+    @State private var mood: Mood = Mood()
+    @State private var moodArray: [Mood] = []
+    
+    
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(mood: $mood, moodArray: $moodArray)
         }
     }
 }

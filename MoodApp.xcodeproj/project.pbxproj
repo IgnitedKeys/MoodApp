@@ -11,6 +11,10 @@
 		3A3050D5293FE96A00861864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3050D4293FE96A00861864 /* ContentView.swift */; };
 		3A3050D7293FE96B00861864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3050D6293FE96B00861864 /* Assets.xcassets */; };
 		3A3050DA293FE96B00861864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3050D9293FE96B00861864 /* Preview Assets.xcassets */; };
+		3A3050E1293FEC2F00861864 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3050E0293FEC2F00861864 /* MainView.swift */; };
+		3A3050E3293FEC8900861864 /* NewMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3050E2293FEC8900861864 /* NewMoodView.swift */; };
+		3A3050E5293FEEB000861864 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3050E4293FEEB000861864 /* Mood.swift */; };
+		3A3050E72940F36B00861864 /* MoodHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3050E62940F36B00861864 /* MoodHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3A3050D4293FE96A00861864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A3050D6293FE96B00861864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3050D9293FE96B00861864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A3050E0293FEC2F00861864 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3A3050E2293FEC8900861864 /* NewMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMoodView.swift; sourceTree = "<group>"; };
+		3A3050E4293FEEB000861864 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		3A3050E62940F36B00861864 /* MoodHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				3A3050D2293FE96A00861864 /* MoodAppApp.swift */,
+				3A3050E0293FEC2F00861864 /* MainView.swift */,
 				3A3050D4293FE96A00861864 /* ContentView.swift */,
 				3A3050D6293FE96B00861864 /* Assets.xcassets */,
 				3A3050D8293FE96B00861864 /* Preview Content */,
+				3A3050E2293FEC8900861864 /* NewMoodView.swift */,
+				3A3050E4293FEEB000861864 /* Mood.swift */,
+				3A3050E62940F36B00861864 /* MoodHistoryView.swift */,
 			);
 			path = MoodApp;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3050E72940F36B00861864 /* MoodHistoryView.swift in Sources */,
+				3A3050E5293FEEB000861864 /* Mood.swift in Sources */,
+				3A3050E3293FEC8900861864 /* NewMoodView.swift in Sources */,
 				3A3050D5293FE96A00861864 /* ContentView.swift in Sources */,
+				3A3050E1293FEC2F00861864 /* MainView.swift in Sources */,
 				3A3050D3293FE96A00861864 /* MoodAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
